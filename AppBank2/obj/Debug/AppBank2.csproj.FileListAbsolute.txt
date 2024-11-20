@@ -1,0 +1,17 @@
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\bin\Debug\AppBank2.exe.config
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\bin\Debug\AppBank2.exe
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\bin\Debug\AppBank2.pdb
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.csproj.AssemblyReference.cache
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\MainWindow.g.cs
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\App.g.cs
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2_MarkupCompile.cache
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2_MarkupCompile.lref
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\DictionaryGeneral.baml
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\MainWindow.baml
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.g.resources
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.Properties.Resources.resources
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.csproj.GenerateResource.cache
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.csproj.CoreCompileInputs.cache
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.exe
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.pdb
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\App.baml
