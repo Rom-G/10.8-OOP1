@@ -15,3 +15,6 @@ C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.csproj.CoreCom
 C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.exe
 C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.pdb
 C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\App.baml
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\View\Start.g.cs
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\View\Start.baml
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\GeneratedInternalTypeHelper.g.cs

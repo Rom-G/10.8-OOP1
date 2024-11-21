@@ -70,5 +70,11 @@
         </ControlTemplate.Triggers>
     </ControlTemplate>
 
+    <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="#FF134461"/>
+    </Style>
+
 
 </ResourceDictionary>

@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="AppBank2.View.Start"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AppBank2.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid VerticalAlignment="Center" 
+      HorizontalAlignment="Center"
+      Background="#7082785B"
+      Height="250"
+      Width="350">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="0.4*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0"
+               Style="{StaticResource TextBlockStyle}"
+               FontSize="36"
+               FontWeight="Bold" >
+            <TextBlock.Text>"A" Банк</TextBlock.Text>
+        </TextBlock>
+        <TextBlock Grid.Row="1"
+               Style="{StaticResource TextBlockStyle}"
+               FontSize="26"
+               FontWeight="DemiBold" >
+            <TextBlock.Text>Данные клиентов</TextBlock.Text>
+        </TextBlock>
+        <TextBlock Grid.Row="2"
+               Style="{StaticResource TextBlockStyle}"
+               FontSize="18"
+               FontWeight="DemiBold" >
+            <TextBlock.Text>Авторизуйтесь для продолжения:</TextBlock.Text>
+        </TextBlock>
+        <ComboBox Grid.Row="3"
+              HorizontalAlignment="Center"
+              Width="200"
+              Margin="5">
+            <ComboBoxItem>
+                <StackPanel>
+                    <TextBlock FontSize="18">Консультант</TextBlock>
+                    <TextBlock>Ограниченный доступ</TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel>
+                    <TextBlock FontSize="18">Менеджер</TextBlock>
+                    <TextBlock>Расширенный доступ</TextBlock>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</UserControl>
