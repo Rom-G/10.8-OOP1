@@ -18,3 +18,9 @@ C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\App.baml
 C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\View\Start.g.cs
 C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\View\Start.baml
 C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\View\Consultant.g.cs
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\View\Consultant.baml
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\rom-g\source\repos\10.8-OOP1\AppBank2\obj\Debug\AppBank2.csproj.Up2Date

@@ -4,18 +4,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:AppBank2.View"
+             xmlns:viewmodels="clr-namespace:AppBank2.ViewModel"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid VerticalAlignment="Center" 
       HorizontalAlignment="Center"
       Background="#7082785B"
-      Height="250"
-      Width="350">
+      Height="300"
+      Width="450">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="0.4*"></RowDefinition>
             <RowDefinition Height="0.3*"></RowDefinition>
-            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition Height="0.4*"></RowDefinition>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0"
                Style="{StaticResource TextBlockStyle}"
@@ -36,21 +38,29 @@
             <TextBlock.Text>Авторизуйтесь для продолжения:</TextBlock.Text>
         </TextBlock>
         <ComboBox Grid.Row="3"
-              HorizontalAlignment="Center"
-              Width="200"
-              Margin="5">
-            <ComboBoxItem>
+                  HorizontalAlignment="Center"
+                  Width="200"
+                  Margin="5"
+                  SelectedItem="{Binding SelectedLevel}">
+            <ComboBoxItem x:Name="Консультант">
                 <StackPanel>
                     <TextBlock FontSize="18">Консультант</TextBlock>
                     <TextBlock>Ограниченный доступ</TextBlock>
                 </StackPanel>
             </ComboBoxItem>
-            <ComboBoxItem>
+            <ComboBoxItem x:Name="Менеджер">
                 <StackPanel>
                     <TextBlock FontSize="18">Менеджер</TextBlock>
                     <TextBlock>Расширенный доступ</TextBlock>
                 </StackPanel>
             </ComboBoxItem>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction
+                            Command="{Binding ShowConsultantFormCommand}"
+                            CommandParameter="{Binding SelectedLevel}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
         </ComboBox>
     </Grid>
 </UserControl>

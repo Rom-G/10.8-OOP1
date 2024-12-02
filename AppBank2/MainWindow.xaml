@@ -3,13 +3,24 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AppBank2"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
-        xmlns:uc="clr-namespace:AppBank2.View"
+        xmlns:local="clr-namespace:AppBank2"
+        xmlns:viewmodels="clr-namespace:AppBank2.ViewModel"
+        xmlns:views="clr-namespace:AppBank2.View"
+        xmlns:uc="clr-namespace:AppBank2.View" 
+        d:DataContext="{d:DesignInstance Type=viewmodels:MainVM}"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Style="{StaticResource WindowStyle1}"
-        d:DesignHeight="499.96" d:DesignWidth="741.257">
+        d:DesignHeight="500" d:DesignWidth="750">
+    <Window.Resources>
+        <DataTemplate x:Name="startTemplate" DataType="{x:Type viewmodels:StartVM}">
+            <views:Start DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="consultantTemplate" DataType="{x:Type viewmodels:ConsultantVM}">
+            <views:Consultant DataContext="{Binding}"/>
+        </DataTemplate>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"></RowDefinition>
@@ -24,7 +35,10 @@
             </Button>
         </Border>
 
-        <uc:Start Grid.Row="1" />
+        <ContentControl Grid.Row="1" 
+                        Content="{Binding ChildVM}" />
+
+        <!--<uc:Start Grid.Row="1" />-->
 
     </Grid>
 </Window>
